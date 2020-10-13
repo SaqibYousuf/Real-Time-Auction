@@ -1,0 +1,212 @@
+.body {
+    background-color: whitesmoke;
+}
+.NavBar {
+    background-color: #777777;
+    // width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    color: white;
+    .heading {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        // padding: 0px 20px;
+        color: white;
+    }
+    .navMenu {
+        display: flex;
+
+        .navLink {
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            justify-content: center;
+            text-align: center;
+            i {
+                font-size: 28px;
+            }
+            p {
+                margin: 0px;
+            }
+        }
+    }
+}
+.Home {
+    width: 100%;
+    height: 90.6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        text-align: center;
+        font-weight: 800;
+    }
+    .modeDiv {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .Mode {
+            width: 40%;
+            background-color: white;
+            text-align: center;
+            height: 30vh;
+            box-shadow: 0px 0px 29px -22px black;
+        }
+    }
+}
+.auctioneer {
+    height: 90.6vh;
+    padding: 10px 30px;
+    .aucform {
+        display: flex;
+        flex-direction: column;
+        .aucInput {
+            width: 30%;
+            height: 40px;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+        .imgUpload {
+            width: 32%;
+        }
+        .aucBtn {
+            width: 15%;
+            height: 50px;
+        }
+    }
+}
+.bidder {
+    display: flex;
+    .catogories {
+        min-height: 88vh;
+        background-color: #0e0e0e66;
+        width: 20%;
+        padding: 10px 20px;
+        .cat {
+            // padding: 10px 30px;
+            p {
+                font-weight: 600;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+    .YourbidProducts {
+        width: 100% !important;
+        min-height: 85vh !important;
+        .bidItems {
+            flex-direction: column;
+        }
+        .bidHistory {
+            flex-direction: column;
+            .Detail {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+        }
+    }
+    .bidProducts {
+        width: 80%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        h3 {
+            text-align: center;
+        }
+        .bidItems {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            width: 30%;
+            height: 440px;
+            background-color: white;
+            margin: 17px;
+            .ProductImage {
+                height: 60%;
+                background-size: cover;
+                background-position: center;
+            }
+            .proDet {
+                padding: 10px 15px;
+                .proName {
+                    font-weight: bold;
+                }
+                .bid {
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        margin: 0px;
+                    }
+                    .bidPrice {
+                        font-weight: bolder;
+                    }
+                    button {
+                        width: 100px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+.modalPic {
+    height: 50vh;
+    width: 80%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imgBid {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    .recentBids {
+        div {
+            overflow-y: auto;
+            height: 20vh;
+        }
+    }
+}
+.bidInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    div {
+        width: 49%;
+    }
+    input {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+    }
+    .bidButton {
+        height: 0px;
+        button {
+            width: 100px;
+            height: 50px;
+        }
+    }
+    .bidPrice {
+        font-weight: bold;
+    }
+    .dateTime {
+        font-weight: bolder;
+    }
+}
+.checkbox{
+    width: 15px !important;
+}
